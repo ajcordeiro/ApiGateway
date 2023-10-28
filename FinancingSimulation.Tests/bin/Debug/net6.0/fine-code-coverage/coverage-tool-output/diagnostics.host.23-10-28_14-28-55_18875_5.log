@@ -1,0 +1,110 @@
+TpTrace Information: 0 : 33776, 1, 2023/10/28, 14:28:55.357, 8842018241537, testhost.dll, DefaultEngineInvoker: Monitoring parent process with id: '40816'
+TpTrace Information: 0 : 33776, 1, 2023/10/28, 14:28:55.375, 8842018414704, testhost.dll, DefaultEngineInvoker: Initialize communication on endpoint address: '127.0.0.1:059315'
+TpTrace Information: 0 : 33776, 1, 2023/10/28, 14:28:55.382, 8842018482047, testhost.dll, Trying to connect to server on socket : 127.0.0.1:59315 
+TpTrace Information: 0 : 33776, 1, 2023/10/28, 14:28:55.392, 8842018582326, testhost.dll, Trying to connect to server on socket : 127.0.0.1:59314 
+TpTrace Information: 0 : 33776, 8, 2023/10/28, 14:28:55.393, 8842018588048, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 33776, 8, 2023/10/28, 14:28:55.393, 8842018588653, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 33776, 9, 2023/10/28, 14:28:55.393, 8842018594114, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 33776, 9, 2023/10/28, 14:28:55.393, 8842018594620, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 33776, 1, 2023/10/28, 14:28:55.394, 8842018602080, testhost.dll, DefaultEngineInvoker: Start Request Processing.
+TpTrace Information: 0 : 33776, 11, 2023/10/28, 14:28:55.470, 8842019367008, testhost.dll, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 7
+TpTrace Information: 0 : 33776, 11, 2023/10/28, 14:28:55.503, 8842019692029, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.Initialize) -> [
+  "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\xunit.runner.visualstudio.dotnetcore.testadapter.dll"
+]
+TpTrace Information: 0 : 33776, 11, 2023/10/28, 14:28:55.503, 8842019692670, testhost.dll, Discovery Session Initialize.
+TpTrace Information: 0 : 33776, 11, 2023/10/28, 14:28:55.508, 8842019741640, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\FinancingSimulation.Tests.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v6.0</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\7.0.400\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.508, 8842019741972, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 33776, 11, 2023/10/28, 14:28:55.508, 8842019743255, testhost.dll, Execution started.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.512, 8842019785457, testhost.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:55.515, 8842019808263, testhost.dll, AssemblyResolver: xunit.runner.visualstudio.dotnetcore.testadapter: Resolving assembly.
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:55.517, 8842019835715, testhost.dll, AssemblyResolver: xunit.runner.visualstudio.dotnetcore.testadapter: Resolved assembly. 
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:55.527, 8842019935699, testhost.dll, AssemblyResolver: xunit.runner.utility.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:55.530, 8842019965789, testhost.dll, AssemblyResolver: xunit.runner.utility.netcoreapp10: Resolved assembly. 
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.534, 8842020003930, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.534, 8842020006042, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.534, 8842020006408, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.534, 8842020006677, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.534, 8842020006911, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:55.538, 8842020038179, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.538, 8842020042601, testhost.dll, TestExecutorExtensionManager: Loading executor Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.538, 8842020043020, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.539, 8842020049783, testhost.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.539, 8842020051096, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.539, 8842020051322, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.539, 8842020051483, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.539, 8842020051789, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.539, 8842020051925, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.539, 8842020056524, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:55.539, 8842020056834, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:55.580, 8842020466199, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\FinancingSimulation.Tests.dll
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.582, 8842020480077, testhost.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.583, 8842020488044, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.583, 8842020488509, testhost.dll, TestPluginCache: Discoverers are 'Xunit.Runner.VisualStudio.VsTestRunner, xunit.runner.visualstudio.dotnetcore.testadapter, Version=2.4.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c'.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.583, 8842020489176, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.583, 8842020489367, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.583, 8842020489495, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:55.585, 8842020510708, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:55.591, 8842020571488, testhost.dll, [xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 6.0.23)
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:56.162, 8842026282643, testhost.dll, AssemblyResolver: xunit.runner.reporters.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:56.164, 8842026299597, testhost.dll, AssemblyResolver: xunit.runner.reporters.netcoreapp10: Resolved assembly. 
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:56.210, 8842026763934, testhost.dll, [xUnit.net 00:00:00.62]   Discovering: FinancingSimulation.Tests
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:56.234, 8842027005920, testhost.dll, [xUnit.net 00:00:00.64]   Discovered:  FinancingSimulation.Tests
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:56.236, 8842027020200, testhost.dll, [xUnit.net 00:00:00.65]   Starting:    FinancingSimulation.Tests
+TpTrace Warning: 0 : 33776, 16, 2023/10/28, 14:28:56.456, 8842029221178, testhost.dll, TestRunCache: No test found corresponding to testResult 'FinancingSimulation.Tests.Tests.Services.CustomerServiceTests.TestGetAllAsync_ShoudReturnNotEmptyList_GivenValidInput  Aprovado' in inProgress list.
+TpTrace Warning: 0 : 33776, 16, 2023/10/28, 14:28:56.458, 8842029245285, testhost.dll, TestRunCache: No test found corresponding to testResult 'FinancingSimulation.Tests.Tests.Services.CustomerServiceTests.TestGetByIdAsync_ShoudReturnNotNullObject_GivenValidInput  Aprovado' in inProgress list.
+TpTrace Error: 0 : 33776, 16, 2023/10/28, 14:28:56.462, 8842029282670, testhost.dll, [xUnit.net 00:00:00.87]     FinancingSimulation.Tests.Tests.Repositories.CustomerRepositoryTests.TestGetByIdAsync_ShoudReturnNotNullObject_GivenValidInput [FAIL]
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.463, 8842029288999, testhost.dll, [xUnit.net 00:00:00.87]       System.NullReferenceException : Object reference not set to an instance of an object.
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.463, 8842029294608, testhost.dll, [xUnit.net 00:00:00.87]       Stack Trace:
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.465, 8842029307358, testhost.dll, [xUnit.net 00:00:00.87]         C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Infraestructure\Repositories\Base\BaseRepository.cs(15,0): at FinancingSimulation.Infraestructure.Repositories.Base.BaseRepository`1..ctor(IContext context)
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.465, 8842029309056, testhost.dll, [xUnit.net 00:00:00.87]         C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Infraestructure\Repositories\CustomerRepository.cs(12,0): at FinancingSimulation.Infraestructure.Repositories.CustomerRepository..ctor(IContext context)
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.465, 8842029310400, testhost.dll, [xUnit.net 00:00:00.87]         C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Infraestructure\_fixtures\Repositories\CustomerRepositoryFixture.cs(16,0): at FinancingSimulation.Tests.Infraestructure._fixtures.Repositories.CustomerRepositoryFixture.NewInstance()
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.465, 8842029311702, testhost.dll, [xUnit.net 00:00:00.87]         C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Tests\Repositories\CustomerRepositoryTests.cs(18,0): at FinancingSimulation.Tests.Tests.Repositories.CustomerRepositoryTests..ctor(CustomerRepositoryFixture fixture)
+TpTrace Warning: 0 : 33776, 16, 2023/10/28, 14:28:56.467, 8842029332982, testhost.dll, TestRunCache: No test found corresponding to testResult 'FinancingSimulation.Tests.Tests.Repositories.CustomerRepositoryTests.TestGetByIdAsync_ShoudReturnNotNullObject_GivenValidInput  Com falha
+  Mensagem: System.NullReferenceException : Object reference not set to an instance of an object.
+  StackTrace:
+   at FinancingSimulation.Infraestructure.Repositories.Base.BaseRepository`1..ctor(IContext context) in C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Infraestructure\Repositories\Base\BaseRepository.cs:line 15
+   at FinancingSimulation.Infraestructure.Repositories.CustomerRepository..ctor(IContext context) in C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Infraestructure\Repositories\CustomerRepository.cs:line 12
+   at FinancingSimulation.Tests.Infraestructure._fixtures.Repositories.CustomerRepositoryFixture.NewInstance() in C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Infraestructure\_fixtures\Repositories\CustomerRepositoryFixture.cs:line 16
+   at FinancingSimulation.Tests.Tests.Repositories.CustomerRepositoryTests..ctor(CustomerRepositoryFixture fixture) in C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Tests\Repositories\CustomerRepositoryTests.cs:line 18' in inProgress list.
+TpTrace Warning: 0 : 33776, 16, 2023/10/28, 14:28:56.469, 8842029351438, testhost.dll, TestRunCache: No test found corresponding to testResult 'FinancingSimulation.Tests.Tests.Services.CustomerServiceTests.TestGetAllAsync_ShoudReturnNotNullObject  Aprovado' in inProgress list.
+TpTrace Error: 0 : 33776, 16, 2023/10/28, 14:28:56.469, 8842029352443, testhost.dll, [xUnit.net 00:00:00.88]     FinancingSimulation.Tests.Tests.Repositories.CustomerRepositoryTests.TestGetAllAsync_ShoudReturnNotEmptyList_GivenValidInput [FAIL]
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.469, 8842029353434, testhost.dll, [xUnit.net 00:00:00.88]       System.NullReferenceException : Object reference not set to an instance of an object.
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.469, 8842029354271, testhost.dll, [xUnit.net 00:00:00.88]       Stack Trace:
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.469, 8842029355035, testhost.dll, [xUnit.net 00:00:00.88]         C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Infraestructure\Repositories\Base\BaseRepository.cs(15,0): at FinancingSimulation.Infraestructure.Repositories.Base.BaseRepository`1..ctor(IContext context)
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.469, 8842029355749, testhost.dll, [xUnit.net 00:00:00.88]         C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Infraestructure\Repositories\CustomerRepository.cs(12,0): at FinancingSimulation.Infraestructure.Repositories.CustomerRepository..ctor(IContext context)
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.469, 8842029356585, testhost.dll, [xUnit.net 00:00:00.88]         C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Infraestructure\_fixtures\Repositories\CustomerRepositoryFixture.cs(16,0): at FinancingSimulation.Tests.Infraestructure._fixtures.Repositories.CustomerRepositoryFixture.NewInstance()
+TpTrace Information: 0 : 33776, 16, 2023/10/28, 14:28:56.470, 8842029357353, testhost.dll, [xUnit.net 00:00:00.88]         C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Tests\Repositories\CustomerRepositoryTests.cs(18,0): at FinancingSimulation.Tests.Tests.Repositories.CustomerRepositoryTests..ctor(CustomerRepositoryFixture fixture)
+TpTrace Warning: 0 : 33776, 16, 2023/10/28, 14:28:56.470, 8842029365270, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 33776, 16, 2023/10/28, 14:28:56.470, 8842029365746, testhost.dll, TestRunCache: No test found corresponding to testResult 'FinancingSimulation.Tests.Tests.Repositories.CustomerRepositoryTests.TestGetAllAsync_ShoudReturnNotEmptyList_GivenValidInput  Com falha
+  Mensagem: System.NullReferenceException : Object reference not set to an instance of an object.
+  StackTrace:
+   at FinancingSimulation.Infraestructure.Repositories.Base.BaseRepository`1..ctor(IContext context) in C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Infraestructure\Repositories\Base\BaseRepository.cs:line 15
+   at FinancingSimulation.Infraestructure.Repositories.CustomerRepository..ctor(IContext context) in C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Infraestructure\Repositories\CustomerRepository.cs:line 12
+   at FinancingSimulation.Tests.Infraestructure._fixtures.Repositories.CustomerRepositoryFixture.NewInstance() in C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Infraestructure\_fixtures\Repositories\CustomerRepositoryFixture.cs:line 16
+   at FinancingSimulation.Tests.Tests.Repositories.CustomerRepositoryTests..ctor(CustomerRepositoryFixture fixture) in C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Tests\Repositories\CustomerRepositoryTests.cs:line 18' in inProgress list.
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:56.471, 8842029373595, testhost.dll, [xUnit.net 00:00:00.88]   Finished:    FinancingSimulation.Tests
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:56.474, 8842029399598, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 33776, 12, 2023/10/28, 14:28:56.477, 8842029429095, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 33776, 12, 2023/10/28, 14:28:56.496, 8842029624872, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Information: 0 : 33776, 11, 2023/10/28, 14:28:56.497, 8842029631871, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 33776, 11, 2023/10/28, 14:28:56.497, 8842029632408, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 33776, 11, 2023/10/28, 14:28:56.498, 8842029637533, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 33776, 1, 2023/10/28, 14:28:56.498, 8842029642538, testhost.dll, Closing the connection !

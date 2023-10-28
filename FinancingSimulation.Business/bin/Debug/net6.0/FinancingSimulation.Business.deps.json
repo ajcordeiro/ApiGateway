@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FinancingSimulation.Business/1.0.0": {
+        "dependencies": {
+          "FinancingSimulation.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FinancingSimulation.Business.dll": {}
+        }
+      },
+      "FinancingSimulation.Domain/1.0.0": {
+        "runtime": {
+          "FinancingSimulation.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinancingSimulation.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinancingSimulation.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

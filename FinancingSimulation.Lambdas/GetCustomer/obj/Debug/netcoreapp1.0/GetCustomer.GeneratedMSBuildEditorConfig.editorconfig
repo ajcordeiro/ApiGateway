@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = GetCustomer
+build_property.ProjectDir = C:\LocalWorkspace\FinancingSimulation\FinancingSimulation.Lambdas\GetCustomer\
