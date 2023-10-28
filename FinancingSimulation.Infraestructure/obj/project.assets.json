@@ -1100,11 +1100,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Infraestructure\\FinancingSimulation.Infraestructure.csproj",
+      "projectUniqueName": "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Infraestructure\\FinancingSimulation.Infraestructure.csproj",
       "projectName": "FinancingSimulation.Infraestructure",
-      "projectPath": "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Infraestructure\\FinancingSimulation.Infraestructure.csproj",
+      "projectPath": "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Infraestructure\\FinancingSimulation.Infraestructure.csproj",
       "packagesPath": "C:\\Users\\p22.jaqueson\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Infraestructure\\obj\\",
+      "outputPath": "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\p22.jaqueson\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1122,8 +1122,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Domain\\FinancingSimulation.Domain.csproj": {
-              "projectPath": "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Domain\\FinancingSimulation.Domain.csproj"
+            "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Domain\\FinancingSimulation.Domain.csproj": {
+              "projectPath": "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Domain\\FinancingSimulation.Domain.csproj"
             }
           }
         }

@@ -1,103 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.550335570469799" branch-rate="0.5" lines-covered="82" lines-valid="149" branches-covered="1" branches-valid="2" complexity="42" version="0" timestamp="1698503337">
+<coverage line-rate="0.535714285714286" branch-rate="0.5" lines-covered="75" lines-valid="140" branches-covered="1" branches-valid="2" complexity="42" version="0" timestamp="1698513945">
   <sources>
-    <source>C:\dev\MAZE\FinancingSimulation\</source>
+    <source>C:\dev\MAZE\ApiGateway\</source>
   </sources>
   <packages>
-    <package name="FinancingSimulation.Business" line-rate="0.608695652173913" branch-rate="1" complexity="7">
+    <package name="FinancingSimulation.Business" line-rate="0.470588235294118" branch-rate="1" complexity="7">
       <classes>
-        <class name="FinancingSimulation.Business.Services.Base.BaseService`1" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Business\Services\Base\BaseService.cs" line-rate="0.526315789473684" branch-rate="1" complexity="6">
+        <class name="FinancingSimulation.Business.Services.Base.BaseService`1" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Business\Services\Base\BaseService.cs" line-rate="0.4375" branch-rate="1" complexity="6">
           <methods>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="3" branch="false" />
-                <line number="11" hits="3" branch="false" />
-                <line number="12" hits="3" branch="false" />
-                <line number="13" hits="3" branch="false" />
+                <line number="10" hits="6" branch="false" />
               </lines>
             </method>
             <method name="DeleteByIdAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="0" branch="false" />
-                <line number="17" hits="0" branch="false" />
-                <line number="18" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
               </lines>
             </method>
             <method name="GetAllAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="2" branch="false" />
-                <line number="22" hits="2" branch="false" />
-                <line number="23" hits="2" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
               </lines>
             </method>
             <method name="GetByIdAsync" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="26" hits="1" branch="false" />
-                <line number="27" hits="1" branch="false" />
-                <line number="28" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
               </lines>
             </method>
             <method name="InsertAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="31" hits="0" branch="false" />
-                <line number="32" hits="0" branch="false" />
-                <line number="33" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
               </lines>
             </method>
             <method name="UpdateAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="36" hits="0" branch="false" />
-                <line number="37" hits="0" branch="false" />
-                <line number="38" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="10" hits="3" branch="false" />
-            <line number="11" hits="3" branch="false" />
-            <line number="12" hits="3" branch="false" />
-            <line number="13" hits="3" branch="false" />
-            <line number="16" hits="0" branch="false" />
-            <line number="17" hits="0" branch="false" />
-            <line number="18" hits="0" branch="false" />
-            <line number="21" hits="2" branch="false" />
-            <line number="22" hits="2" branch="false" />
-            <line number="23" hits="2" branch="false" />
-            <line number="26" hits="1" branch="false" />
-            <line number="27" hits="1" branch="false" />
-            <line number="28" hits="1" branch="false" />
-            <line number="31" hits="0" branch="false" />
-            <line number="32" hits="0" branch="false" />
+            <line number="10" hits="6" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
             <line number="33" hits="0" branch="false" />
-            <line number="36" hits="0" branch="false" />
-            <line number="37" hits="0" branch="false" />
-            <line number="38" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="FinancingSimulation.Business.Services.CustomerService" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Business\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="FinancingSimulation.Business.Services.CustomerService" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Business\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="3" branch="false" />
-                <line number="13" hits="3" branch="false" />
-                <line number="14" hits="3" branch="false" />
-                <line number="15" hits="3" branch="false" />
+                <line number="12" hits="6" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="12" hits="3" branch="false" />
-            <line number="13" hits="3" branch="false" />
-            <line number="14" hits="3" branch="false" />
-            <line number="15" hits="3" branch="false" />
+            <line number="12" hits="6" branch="false" />
           </lines>
         </class>
       </classes>
     </package>
     <package name="FinancingSimulation.Domain" line-rate="1" branch-rate="1" complexity="5">
       <classes>
-        <class name="FinancingSimulation.Domain.Models.Customer" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Domain\Models\Customer.cs" line-rate="1" branch-rate="1" complexity="5">
+        <class name="FinancingSimulation.Domain.Models.Customer" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\Models\Customer.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
             <method name="get_CustomerId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -135,9 +123,9 @@
         </class>
       </classes>
     </package>
-    <package name="FinancingSimulation.Infraestructure" line-rate="0.25" branch-rate="1" complexity="7">
+    <package name="FinancingSimulation.Infraestructure" line-rate="0.277777777777778" branch-rate="1" complexity="7">
       <classes>
-        <class name="FinancingSimulation.Infraestructure.Repositories.Base.BaseRepository`1" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Infraestructure\Repositories\Base\BaseRepository.cs" line-rate="0.25" branch-rate="1" complexity="6">
+        <class name="FinancingSimulation.Infraestructure.Repositories.Base.BaseRepository`1" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Infraestructure\Repositories\Base\BaseRepository.cs" line-rate="0.235294117647059" branch-rate="1" complexity="6">
           <methods>
             <method name=".ctor" signature="(...)" line-rate="0.8" branch-rate="1" complexity="1">
               <lines>
@@ -152,6 +140,7 @@
               <lines>
                 <line number="19" hits="0" branch="false" />
                 <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
               </lines>
             </method>
             <method name="GetAllAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -188,6 +177,7 @@
             <line number="16" hits="0" branch="false" />
             <line number="19" hits="0" branch="false" />
             <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
             <line number="24" hits="0" branch="false" />
             <line number="25" hits="0" branch="false" />
             <line number="29" hits="0" branch="false" />
@@ -199,29 +189,23 @@
             <line number="40" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="FinancingSimulation.Infraestructure.Repositories.CustomerRepository" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Infraestructure\Repositories\CustomerRepository.cs" line-rate="0.25" branch-rate="1" complexity="1">
+        <class name="FinancingSimulation.Infraestructure.Repositories.CustomerRepository" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Infraestructure\Repositories\CustomerRepository.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name=".ctor" signature="(...)" line-rate="0.25" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="12" hits="2" branch="false" />
-                <line number="13" hits="0" branch="false" />
-                <line number="14" hits="0" branch="false" />
-                <line number="15" hits="0" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="12" hits="2" branch="false" />
-            <line number="13" hits="0" branch="false" />
-            <line number="14" hits="0" branch="false" />
-            <line number="15" hits="0" branch="false" />
           </lines>
         </class>
       </classes>
     </package>
-    <package name="FinancingSimulation.Tests" line-rate="0.591836734693878" branch-rate="0.5" complexity="22">
+    <package name="FinancingSimulation.Tests" line-rate="0.587628865979381" branch-rate="0.5" complexity="22">
       <classes>
-        <class name="AutoGeneratedProgram" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\obj\Debug\net6.0\FinancingSimulation.Tests.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="AutoGeneratedProgram" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Tests\obj\Debug\net6.0\FinancingSimulation.Tests.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -233,7 +217,7 @@
             <line number="3" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="FinancingSimulation.Tests.Infraestructure._builders.CustomerBuilder" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Infraestructure\_builders\CustomerBuilder.cs" line-rate="0.317073170731707" branch-rate="0.5" complexity="8">
+        <class name="FinancingSimulation.Tests.Infraestructure._builders.CustomerBuilder" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Tests\Infraestructure\_builders\CustomerBuilder.cs" line-rate="0.317073170731707" branch-rate="0.5" complexity="8">
           <methods>
             <method name="New" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -349,7 +333,7 @@
             <line number="72" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="FinancingSimulation.Tests.Infraestructure._fixtures.Repositories.CustomerRepositoryFixture" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Infraestructure\_fixtures\Repositories\CustomerRepositoryFixture.cs" line-rate="0.9" branch-rate="1" complexity="3">
+        <class name="FinancingSimulation.Tests.Infraestructure._fixtures.Repositories.CustomerRepositoryFixture" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Tests\Infraestructure\_fixtures\Repositories\CustomerRepositoryFixture.cs" line-rate="0.9" branch-rate="1" complexity="3">
           <methods>
             <method name="get_ContextMock" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -387,7 +371,7 @@
             <line number="28" hits="2" branch="false" />
           </lines>
         </class>
-        <class name="FinancingSimulation.Tests.Infraestructure._fixtures.Services.CustomerServiceFixture" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Infraestructure\_fixtures\Services\CustomerServiceFixture.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="FinancingSimulation.Tests.Infraestructure._fixtures.Services.CustomerServiceFixture" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Tests\Infraestructure\_fixtures\Services\CustomerServiceFixture.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="get_CustomerRepositoryMock" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -410,7 +394,7 @@
                 <line number="25" hits="3" branch="false" />
                 <line number="27" hits="3" branch="false" />
                 <line number="28" hits="3" branch="false" />
-                <line number="29" hits="3" branch="false" />
+                <line number="32" hits="3" branch="false" />
               </lines>
             </method>
           </methods>
@@ -426,10 +410,10 @@
             <line number="25" hits="3" branch="false" />
             <line number="27" hits="3" branch="false" />
             <line number="28" hits="3" branch="false" />
-            <line number="29" hits="3" branch="false" />
+            <line number="32" hits="3" branch="false" />
           </lines>
         </class>
-        <class name="FinancingSimulation.Tests.Tests.Repositories.CustomerRepositoryTests" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Tests\Repositories\CustomerRepositoryTests.cs" line-rate="0.333333333333333" branch-rate="1" complexity="3">
+        <class name="FinancingSimulation.Tests.Tests.Repositories.CustomerRepositoryTests" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Tests\Tests\Repositories\CustomerRepositoryTests.cs" line-rate="0.333333333333333" branch-rate="1" complexity="3">
           <methods>
             <method name=".ctor" signature="(...)" line-rate="0.833333333333333" branch-rate="1" complexity="1">
               <lines>
@@ -477,7 +461,7 @@
             <line number="42" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="FinancingSimulation.Tests.Tests.Services.CustomerServiceTests" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Tests\Tests\Services\CustomerServiceTests.cs" line-rate="1" branch-rate="1" complexity="4">
+        <class name="FinancingSimulation.Tests.Tests.Services.CustomerServiceTests" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Tests\Tests\Services\CustomerServiceTests.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -489,12 +473,11 @@
                 <line number="19" hits="3" branch="false" />
               </lines>
             </method>
-            <method name="TestGetAllAsync_ShoudReturnNotEmptyList_GivenValidInput" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="TestDeleteByIdAsync_ShoudReturnNotEmptyList_GivenValidInput" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="46" hits="1" branch="false" />
                 <line number="48" hits="1" branch="false" />
-                <line number="51" hits="1" branch="false" />
-                <line number="52" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
               </lines>
             </method>
             <method name="TestGetAllAsync_ShoudReturnNotNullObject" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -533,15 +516,14 @@
             <line number="42" hits="1" branch="false" />
             <line number="46" hits="1" branch="false" />
             <line number="48" hits="1" branch="false" />
-            <line number="51" hits="1" branch="false" />
-            <line number="52" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
           </lines>
         </class>
       </classes>
     </package>
     <package name="GetCustomer" line-rate="0" branch-rate="1" complexity="1">
       <classes>
-        <class name="GetCustomer.Function" filename="C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Lambdas\GetCustomer\Function.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="GetCustomer.Function" filename="C:\dev\MAZE\ApiGateway\FinancingSimulation.Lambdas\GetCustomer\Function.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="FunctionHandler" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>

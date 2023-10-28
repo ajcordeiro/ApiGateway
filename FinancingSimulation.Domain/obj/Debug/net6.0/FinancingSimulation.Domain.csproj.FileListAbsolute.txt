@@ -20,3 +20,14 @@ C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Domain\obj\Debug\net6.0\Fina
 C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Domain\obj\Debug\net6.0\refint\FinancingSimulation.Domain.dll
 C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Domain\obj\Debug\net6.0\FinancingSimulation.Domain.pdb
 C:\dev\MAZE\FinancingSimulation\FinancingSimulation.Domain\obj\Debug\net6.0\ref\FinancingSimulation.Domain.dll
+C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\bin\Debug\net6.0\FinancingSimulation.Domain.deps.json
+C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\bin\Debug\net6.0\FinancingSimulation.Domain.dll
+C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\bin\Debug\net6.0\FinancingSimulation.Domain.pdb
+C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\obj\Debug\net6.0\FinancingSimulation.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\obj\Debug\net6.0\FinancingSimulation.Domain.AssemblyInfoInputs.cache
+C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\obj\Debug\net6.0\FinancingSimulation.Domain.AssemblyInfo.cs
+C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\obj\Debug\net6.0\FinancingSimulation.Domain.csproj.CoreCompileInputs.cache
+C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\obj\Debug\net6.0\FinancingSimulation.Domain.dll
+C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\obj\Debug\net6.0\refint\FinancingSimulation.Domain.dll
+C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\obj\Debug\net6.0\FinancingSimulation.Domain.pdb
+C:\dev\MAZE\ApiGateway\FinancingSimulation.Domain\obj\Debug\net6.0\ref\FinancingSimulation.Domain.dll

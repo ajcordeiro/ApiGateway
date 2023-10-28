@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "30oFcG0AvxIFjWpojmFcHqLpunUSl8wuBKiA3UUjlrQ5Pd/4CRMayYW/jQJV80mw2lvYkQMPuMRiomWuL/OT6g==",
+  "dgSpecHash": "sI7pcnB7NJ5Fzn0j9w4ZkuTyyDkU9oFUtd8NKsm/yKSJIovkLM7MDfQaE6CrR2q7BEcUhBJ6o9HVSoGdgcW7vQ==",
   "success": true,
-  "projectFilePath": "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Business\\FinancingSimulation.Business.csproj",
+  "projectFilePath": "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Business\\FinancingSimulation.Business.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

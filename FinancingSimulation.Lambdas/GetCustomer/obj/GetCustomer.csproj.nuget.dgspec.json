@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Lambdas\\GetCustomer\\GetCustomer.csproj": {}
+    "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Lambdas\\GetCustomer\\GetCustomer.csproj": {}
   },
   "projects": {
-    "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Lambdas\\GetCustomer\\GetCustomer.csproj": {
+    "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Lambdas\\GetCustomer\\GetCustomer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Lambdas\\GetCustomer\\GetCustomer.csproj",
+        "projectUniqueName": "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Lambdas\\GetCustomer\\GetCustomer.csproj",
         "projectName": "GetCustomer",
-        "projectPath": "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Lambdas\\GetCustomer\\GetCustomer.csproj",
+        "projectPath": "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Lambdas\\GetCustomer\\GetCustomer.csproj",
         "packagesPath": "C:\\Users\\p22.jaqueson\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Lambdas\\GetCustomer\\obj\\",
+        "outputPath": "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Lambdas\\GetCustomer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\p22.jaqueson\\AppData\\Roaming\\NuGet\\NuGet.Config",

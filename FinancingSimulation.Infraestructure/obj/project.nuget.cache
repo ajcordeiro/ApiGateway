@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oP1JWAR4AKhLDECmYSuAGKCJjQ/zQniMhMN5JTBxGZ4kmygDsNU8633ZiHdKWsJlMiGGRxXmWgKwTCfQFg4Wqg==",
+  "dgSpecHash": "Oo/ODDIxIEoAbKZLgtdzRc1eB2SQ4HXA0DXkSRGXPj5zrxow5hMXzDOWNpdrfeFXcMwjGN1oA9uDhzbeGPwdWA==",
   "success": true,
-  "projectFilePath": "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Infraestructure\\FinancingSimulation.Infraestructure.csproj",
+  "projectFilePath": "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Infraestructure\\FinancingSimulation.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\p22.jaqueson\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\p22.jaqueson\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

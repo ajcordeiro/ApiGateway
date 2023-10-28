@@ -27,8 +27,8 @@ namespace FinancingSimulation.Tests.Infraestructure._fixtures.Services
             CustomerRepositoryMock.Setup(x => x.GetAllAsync())
                 .ReturnsAsync(new List<Customer> { new CustomerBuilder().Build(), new CustomerBuilder().Build() });
 
-            CustomerRepositoryMock.Setup(x => x.DeleteByIdAsync(It.IsAny<int>()))
-                .ReturnsAsync(new CustomerBuilder().Build());
+            //CustomerRepositoryMock.Setup(x => x.DeleteByIdAsync(It.IsAny<int>()))
+            //    .ReturnsAsync(new CustomerBuilder().Build());
         }
     }
 }

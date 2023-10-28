@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PYn6GYlI1Ina8AOQjfNgjcDgs6CS2RBFSETK6kzWMExQnse9fSsyvtOGaLUMLEAaf9G6veGnNbrBwG1iF8E/HA==",
+  "dgSpecHash": "hOhtZitA2QhEuxy4fFbligqas5BWMIupthvNbz/Yo+Bnlnlx7isrSLxTp8/ZzcJBar3cmrSzJF3xbKnDwWLdKA==",
   "success": true,
-  "projectFilePath": "C:\\dev\\MAZE\\FinancingSimulation\\FinancingSimulation.Tests\\FinancingSimulation.Tests.csproj",
+  "projectFilePath": "C:\\dev\\MAZE\\ApiGateway\\FinancingSimulation.Tests\\FinancingSimulation.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\p22.jaqueson\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
     "C:\\Users\\p22.jaqueson\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.1\\amazon.lambda.serialization.systemtextjson.2.3.1.nupkg.sha512",

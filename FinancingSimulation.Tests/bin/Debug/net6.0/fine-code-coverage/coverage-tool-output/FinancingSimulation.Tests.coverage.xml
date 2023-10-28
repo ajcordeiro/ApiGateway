@@ -1,125 +1,113 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.5503" branch-rate="0.5" version="1.9" timestamp="1698514136" lines-covered="82" lines-valid="149" branches-covered="1" branches-valid="2">
+<coverage line-rate="0.5357" branch-rate="0.5" version="1.9" timestamp="1698524744" lines-covered="75" lines-valid="140" branches-covered="1" branches-valid="2">
   <sources>
-    <source>C:\dev\MAZE\FinancingSimulation\</source>
+    <source>C:\dev\MAZE\ApiGateway\</source>
   </sources>
   <packages>
-    <package name="FinancingSimulation.Business" line-rate="0.6086" branch-rate="1" complexity="7">
+    <package name="FinancingSimulation.Business" line-rate="0.4705" branch-rate="1" complexity="7">
       <classes>
         <class name="FinancingSimulation.Business.Services.CustomerService" filename="FinancingSimulation.Business\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="(FinancingSimulation.Domain.Contracts.Repositories.ICustomerRepository)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="3" branch="False" />
-                <line number="13" hits="3" branch="False" />
-                <line number="14" hits="3" branch="False" />
-                <line number="15" hits="3" branch="False" />
+                <line number="12" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="12" hits="3" branch="False" />
-            <line number="13" hits="3" branch="False" />
-            <line number="14" hits="3" branch="False" />
-            <line number="15" hits="3" branch="False" />
+            <line number="12" hits="6" branch="False" />
           </lines>
         </class>
         <class name="FinancingSimulation.Business.Services.Base.BaseService`1" filename="FinancingSimulation.Business\Services\Base\BaseService.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="(FinancingSimulation.Domain.Contracts.Repositories.Base.IBaseRepository`1&lt;TEntity&gt;)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="3" branch="False" />
-                <line number="11" hits="3" branch="False" />
-                <line number="12" hits="3" branch="False" />
-                <line number="13" hits="3" branch="False" />
+                <line number="10" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="10" hits="3" branch="False" />
-            <line number="11" hits="3" branch="False" />
-            <line number="12" hits="3" branch="False" />
-            <line number="13" hits="3" branch="False" />
+            <line number="10" hits="6" branch="False" />
           </lines>
         </class>
         <class name="FinancingSimulation.Business.Services.Base.BaseService`1/&lt;DeleteByIdAsync&gt;d__2" filename="FinancingSimulation.Business\Services\Base\BaseService.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="0" branch="False" />
-                <line number="17" hits="0" branch="False" />
-                <line number="18" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="16" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
           </lines>
         </class>
         <class name="FinancingSimulation.Business.Services.Base.BaseService`1/&lt;GetAllAsync&gt;d__3" filename="FinancingSimulation.Business\Services\Base\BaseService.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="2" branch="False" />
-                <line number="22" hits="2" branch="False" />
-                <line number="23" hits="2" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="21" hits="2" branch="False" />
-            <line number="22" hits="2" branch="False" />
-            <line number="23" hits="2" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
           </lines>
         </class>
         <class name="FinancingSimulation.Business.Services.Base.BaseService`1/&lt;GetByIdAsync&gt;d__4" filename="FinancingSimulation.Business\Services\Base\BaseService.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="26" hits="1" branch="False" />
-                <line number="27" hits="1" branch="False" />
-                <line number="28" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="26" hits="1" branch="False" />
-            <line number="27" hits="1" branch="False" />
-            <line number="28" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
           </lines>
         </class>
         <class name="FinancingSimulation.Business.Services.Base.BaseService`1/&lt;InsertAsync&gt;d__5" filename="FinancingSimulation.Business\Services\Base\BaseService.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="31" hits="0" branch="False" />
-                <line number="32" hits="0" branch="False" />
-                <line number="33" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="31" hits="0" branch="False" />
-            <line number="32" hits="0" branch="False" />
-            <line number="33" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
           </lines>
         </class>
         <class name="FinancingSimulation.Business.Services.Base.BaseService`1/&lt;UpdateAsync&gt;d__6" filename="FinancingSimulation.Business\Services\Base\BaseService.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="36" hits="0" branch="False" />
-                <line number="37" hits="0" branch="False" />
-                <line number="38" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="36" hits="0" branch="False" />
-            <line number="37" hits="0" branch="False" />
-            <line number="38" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
           </lines>
         </class>
       </classes>
@@ -164,24 +152,18 @@
         </class>
       </classes>
     </package>
-    <package name="FinancingSimulation.Infraestructure" line-rate="0.25" branch-rate="1" complexity="7">
+    <package name="FinancingSimulation.Infraestructure" line-rate="0.2777" branch-rate="1" complexity="7">
       <classes>
-        <class name="FinancingSimulation.Infraestructure.Repositories.CustomerRepository" filename="FinancingSimulation.Infraestructure\Repositories\CustomerRepository.cs" line-rate="0.25" branch-rate="1" complexity="1">
+        <class name="FinancingSimulation.Infraestructure.Repositories.CustomerRepository" filename="FinancingSimulation.Infraestructure\Repositories\CustomerRepository.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name=".ctor" signature="(FinancingSimulation.Infraestructure.Data.Context.IContext)" line-rate="0.25" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(FinancingSimulation.Infraestructure.Data.Context.IContext)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="12" hits="2" branch="False" />
-                <line number="13" hits="0" branch="False" />
-                <line number="14" hits="0" branch="False" />
-                <line number="15" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="12" hits="2" branch="False" />
-            <line number="13" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
-            <line number="15" hits="0" branch="False" />
           </lines>
         </class>
         <class name="FinancingSimulation.Infraestructure.Repositories.Base.BaseRepository`1" filename="FinancingSimulation.Infraestructure\Repositories\Base\BaseRepository.cs" line-rate="0.8" branch-rate="1" complexity="1">
@@ -210,12 +192,14 @@
               <lines>
                 <line number="19" hits="0" branch="False" />
                 <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="19" hits="0" branch="False" />
             <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
           </lines>
         </class>
         <class name="FinancingSimulation.Infraestructure.Repositories.Base.BaseRepository`1/&lt;GetAllAsync&gt;d__4" filename="FinancingSimulation.Infraestructure\Repositories\Base\BaseRepository.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -278,7 +262,7 @@
         </class>
       </classes>
     </package>
-    <package name="FinancingSimulation.Tests" line-rate="0.5918" branch-rate="0.5" complexity="22">
+    <package name="FinancingSimulation.Tests" line-rate="0.5876" branch-rate="0.5" complexity="22">
       <classes>
         <class name="AutoGeneratedProgram" filename="FinancingSimulation.Tests\obj\Debug\net6.0\FinancingSimulation.Tests.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -314,22 +298,20 @@
             <line number="19" hits="3" branch="False" />
           </lines>
         </class>
-        <class name="FinancingSimulation.Tests.Tests.Services.CustomerServiceTests/&lt;TestGetAllAsync_ShoudReturnNotEmptyList_GivenValidInput&gt;d__6" filename="FinancingSimulation.Tests\Tests\Services\CustomerServiceTests.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="FinancingSimulation.Tests.Tests.Services.CustomerServiceTests/&lt;TestDeleteByIdAsync_ShoudReturnNotEmptyList_GivenValidInput&gt;d__6" filename="FinancingSimulation.Tests\Tests\Services\CustomerServiceTests.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="46" hits="1" branch="False" />
                 <line number="48" hits="1" branch="False" />
-                <line number="51" hits="1" branch="False" />
-                <line number="52" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="46" hits="1" branch="False" />
             <line number="48" hits="1" branch="False" />
-            <line number="51" hits="1" branch="False" />
-            <line number="52" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
           </lines>
         </class>
         <class name="FinancingSimulation.Tests.Tests.Services.CustomerServiceTests/&lt;TestGetAllAsync_ShoudReturnNotNullObject&gt;d__5" filename="FinancingSimulation.Tests\Tests\Services\CustomerServiceTests.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -453,7 +435,7 @@
                 <line number="25" hits="3" branch="False" />
                 <line number="27" hits="3" branch="False" />
                 <line number="28" hits="3" branch="False" />
-                <line number="29" hits="3" branch="False" />
+                <line number="32" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
@@ -469,7 +451,7 @@
             <line number="25" hits="3" branch="False" />
             <line number="27" hits="3" branch="False" />
             <line number="28" hits="3" branch="False" />
-            <line number="29" hits="3" branch="False" />
+            <line number="32" hits="3" branch="False" />
           </lines>
         </class>
         <class name="FinancingSimulation.Tests.Infraestructure._fixtures.Repositories.CustomerRepositoryFixture" filename="FinancingSimulation.Tests\Infraestructure\_fixtures\Repositories\CustomerRepositoryFixture.cs" line-rate="0.9" branch-rate="1" complexity="3">
